@@ -1,0 +1,3 @@
+let x := loop while "hello" do
+        2
+    end

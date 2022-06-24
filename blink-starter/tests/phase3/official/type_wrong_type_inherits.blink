@@ -1,0 +1,18 @@
+type Thing(x: int, y: int) :=
+  member getX(): int :=
+    x
+end
+
+type Point(x: int, y: int) inherits from Thing(x, "hello") :=
+  member getX(): int :=
+    x
+
+  member getY(): int :=
+    y
+
+  member setX(newX: int) :=
+    x := newX
+
+  member setY(newY: int) :=
+    y := newY
+end

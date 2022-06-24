@@ -1,0 +1,2 @@
+let b2: bool := true
+let b9 := 5 * b2

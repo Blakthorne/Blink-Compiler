@@ -1,0 +1,5 @@
+ext.pathMapper = [:]
+ext.pathMapper.put("<<target java executable path>>", "<<target java executable path>>")
+ext.pathMapper.put("C:/csclasses/CpSCompiler/cps450-compiler-Blakthorne/blink-starter", "/mnt/c/csclasses/CpSCompiler/cps450-compiler-Blakthorne/blink-starter")
+ext.pathMapper.put("<<target java executable path>>", "/usr/lib/jvm/java-11-openjdk-amd64/bin/java")
+ext.mapPath = { path -> pathMapper.get(path) ?: path }

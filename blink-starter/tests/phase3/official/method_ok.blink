@@ -1,0 +1,6 @@
+let fact(num: int): int :=
+  if num = 0 then
+    1
+  else
+    num * fact(num - 1)
+  end

@@ -1,0 +1,3 @@
+let x := loop while true do
+        2
+    end
