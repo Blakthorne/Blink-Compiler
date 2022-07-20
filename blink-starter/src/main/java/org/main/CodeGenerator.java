@@ -37,7 +37,6 @@ public class CodeGenerator implements BlinkASTVisitor<String> {
         return s;
     }
 
-    // NO
     @Override
     public String visit(TypeDeclarationNode node) {
         return null;
